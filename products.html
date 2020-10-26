@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<title>::TrackMatrix::</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="scss/styles/fontawesome/css/all.min.css">	
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	
+	<header>
+		<div class="container-fluid">
+			<div class="header-left">
+				<div class="menubar">
+					<a href="javascript:void(0);" class="menu-toggle"><i class="fal fa-bars"></i></a>
+				</div>
+				<div class="logo"><a href="javascript:void(0);"><img src="images/logo.png" alt="logo"></a></div>
+			</div>
+			<div class="header-right">
+				<div class="theme-adjuct">
+					<a href="javascript:void(0);" class="adjuct-icon"><i class="fas fa-adjust"></i></a>
+				</div>
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle setting-icon" data-toggle="dropdown"><i class="far fa-cog"></i> <i class="fal fa-chevron-down"></i></button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="javascript:void(0);"><i class="fas fa-key"></i> Login</a>
+						<a class="dropdown-item" href="javascript:void(0);"><i class="fas fa-user-alt"></i> My profile</a>
+						<a class="dropdown-item" href="javascript:void(0);"><i class="fas fa-cog"></i> Setting</a>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="middle-part">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-lg-3">
+					<aside class="left-aside">
+						<ul class="main-toggleListing">
+						<li>
+							<a href="#!"><img src="images/home.png" alt=""> Home</a>
+						</li>
+						<li class="title">
+							<a href="#!" data-toggle="collapse" data-target="#demo"><img src="images/product-analytics.png" alt=""> Product Analytics</a>
+							<ul class="content">
+								<li><a href="#!">Active</a></li>
+								<li><a href="#!">Inactive</a></li>
+								<li><a href="#!">Draft</a></li>
+							</ul>
+						</li>
+						<li class="title">
+							<a href="#!" data-toggle="collapse" data-target="#demo"><img src="images/manage-inventory.png" alt=""> Manage Inventory</a>
+							<ul class="content">
+							<li><a href="#!">Active</a></li>
+							<li><a href="#!">Inactive</a></li>
+							<li><a href="#!">Draft</a></li>
+							</ul>
+						</li>
+						<li class="title">
+							<a href="#!" data-toggle="collapse" data-target="#demo"><img src="images/tm-engage.png" alt=""> TM Engage</a>
+							<ul class="content">
+								<li><a href="#!">Active</a></li>
+								<li><a href="#!">Inactive</a></li>
+								<li><a href="#!">Draft</a></li>
+							</ul>
+						</li>	
+						<li class="title">
+							<a href="#!" data-toggle="collapse" data-target="#demo"><img src="images/account.png" alt=""> Account</a>
+							<ul class="content">
+								<li><a href="#!">Active</a></li>
+								<li><a href="#!">Inactive</a></li>
+								<li><a href="#!">Draft</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#!"><img src="images/support.png" alt=""> Support</a>
+						</li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-md-12 col-lg-9">
+					<aside class="right-aside">
+						<div class="page-title"><i class="fal fa-long-arrow-left"></i> All Products</div>
+						<div class="product-content-tab tab-title clearfix">
+							<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#product-details">Product Details</a> </li>
+							<li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#orders">Orders</a> </li>
+							<li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#location-management">Location Management</a> </li>
+							</ul>
+							<div class="tab-content">
+							<div id="product-details" class="tab-pane active" role="tabpanel">
+								<div class="tablist-content">
+									<div class="row">
+										<div class="col-md-12 col-lg-8 product-left-width">
+											<div class="tab-left-part">
+												<div class="row">
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Title</label>
+															<input class="form-control" type="text" placeholder="BuddyPhones Cosmos">
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Description</label>
+															<div class="description-text box-border">
+																<div class="description-top-bar">
+																	<div class="row">
+																		<div class="col-sm-4 col-md-3 description-left-width">
+																			<select class="form-control">
+																				<option>Paragraph</option>
+																				<option>H1</option>
+																				<option>H2</option>
+																			</select>
+																		</div>
+																		<div class="col-sm-8  col-md-9 description-right-width">
+																			<a href="javascript:void(0);"><img src="images/input-img.png" alt=""></a>
+																		</div>
+																	</div>																
+																</div>
+																<div class="description-bottom-bar">
+																	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+																	<ul>
+																		<span>Includes:</span>
+																		<li>BuddyPhones Cosmos</li>
+																		<li>Micro-usb charger cord</li>
+																		<li>Backup audio cable for sharing</li>
+																		<li>Anti-allergic Earpads</li>
+																		<li>Hard-case Travel Bag</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Images</label>
+															<div class="images-content box-border">
+																<ul>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/product-img1.jpg" alt=""></a></li>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/product-img2.jpg" alt=""></a></li>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/product-img3.jpg" alt=""></a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Variants</label>
+															<div class="variant-content box-border">
+																<table>
+																	<thead>
+																		<tr>
+																			<th></th><th></th><th></th><th></th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td class="box-border"><img src="images/variant-img1.jpg" alt=""></td>
+																			<td>BuddyPhones Dragon</td>
+																			<td>SKU-000000</td>
+																			<td>50</td>
+																		</tr>
+																		<tr>
+																			<td class="box-border"><img src="images/variant-img2.jpg" alt=""></td>
+																			<td>BuddyPhones Dragon</td>
+																			<td>SKU-000000</td>
+																			<td>50</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<a href="javascript:void(0);" class="add-variant-text">Add Variant</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Landing Page Template</label>
+															<div class="images-content landing-temp-content box-border">
+																<ul>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/landing-template-img1.jpg" alt=""></a></li>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/add-template-icon.png" alt="" class="add-temp-icon">
+																		<button class="btn create-template-btn">Create Template</button>
+																	</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<label>Package Design</label>
+															<div class="images-content landing-temp-content package-design-box box-border">
+																<ul>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/package-design1.png" alt="" class="add-temp-icon">
+																		<button class="btn create-template-btn">Order Packaging</button>
+																	</a>
+																	<a href="javascript:void(0);" class="edit-icon"><i class="fal fa-edit"></i></a>
+																</li>
+																	<li class="box-border"><a href="javascript:void(0);"><img src="images/package-design2.png" alt="" class="add-temp-icon">
+																		<button class="btn create-template-btn">Create Design</button>
+																	</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="form-group">
+															<div class="identifier-title">
+																<label>Identifiers</label>
+																<a href="javascript:void(0);" class="btn generate-identifier-btn">Generate Identifiers</a>
+															</div>
+															<div class="images-content landing-temp-content identifier-table box-border">
+																<table class="table-responsive">
+																	<thead>
+																		<tr>
+																			<th>
+																				<span class="styled-selectors">
+																					<input type="checkbox" name="val[save_card]" id="saveCard">
+																				</span>
+																			</th>
+																			<th>PRODUCT NAME</th>
+																			<th>TAG TYPE</th>
+																			<th>ACTIVATION DATE</th>
+																			<th>DEPLOYMENT LOCATION</th>
+																			<th class="identifier-toggle-box">
+																				<a href="javascript:void(0);" class="identifier-toggle"><i class="far fa-ellipsis-v"></i></a>
+																				<div class="identifier-toggle-content">
+																					<ul>
+																						<li><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></li>
+																						<li><a href="javascript:void(0);"><i class="fal fa-trash-alt"></i> Delete</a></li>
+																						<li><a href="javascript:void(0);"><i class="fas fa-toggle-on"></i> Active</a></li>
+																						<li>
+																							<select class="form-control">
+																								<option>Select Location</option>
+																								<option>Location 1</option>
+																								<option>Location 2</option>
+																							</select>
+																						</li>
+																					</ul>
+																				</div>																				
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>
+																				<span class="styled-selectors">
+																					<input type="checkbox" name="val[save_card]" id="saveCard">
+																				</span>
+																			</td>
+																			<td>SKU-00000</td>
+																			<td>Digital</td>
+																			<td>00/00/00</td>
+																			<td>North America</td>
+																			<td class="identifier-toggle-box">
+																				<a href="javascript:void(0);" class="identifier-toggle"><i class="far fa-ellipsis-v"></i></a>	
+																				<div class="identifier-toggle-content">
+																					<ul>
+																						<li><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></li>
+																						<li><a href="javascript:void(0);"><i class="fal fa-trash-alt"></i> Delete</a></li>
+																						<li><a href="javascript:void(0);"><i class="fas fa-toggle-on"></i> Active</a></li>
+																						<li>
+																							<select class="form-control">
+																								<option>Select Location</option>
+																								<option>Location 1</option>
+																								<option>Location 2</option>
+																							</select>
+																						</li>
+																					</ul>
+																				</div>																			
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<span class="styled-selectors">
+																					<input type="checkbox" name="val[save_card]" id="saveCard">
+																				</span>
+																			</td>
+																			<td>SKU-00000</td>
+																			<td>Digital</td>
+																			<td>00/00/00</td>
+																			<td>North America</td>
+																			<td class="identifier-toggle-box">
+																				<a href="javascript:void(0);" class="identifier-toggle"><i class="far fa-ellipsis-v"></i></a>	
+																				<div class="identifier-toggle-content">
+																					<ul>
+																						<li><a href="javascript:void(0);"><i class="far fa-download"></i> Download</a></li>
+																						<li><a href="javascript:void(0);"><i class="fal fa-trash-alt"></i> Delete</a></li>
+																						<li><a href="javascript:void(0);"><i class="fas fa-toggle-on"></i> Active</a></li>
+																						<li>
+																							<select class="form-control">
+																								<option>Select Location</option>
+																								<option>Location 1</option>
+																								<option>Location 2</option>
+																							</select>
+																						</li>
+																					</ul>
+																				</div>																			
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<span class="styled-selectors">
+																					<input type="checkbox" name="val[save_card]" id="saveCard">
+																				</span>
+																			</td>
+																			<td>SKU-00000</td>
+																			<td>Digital</td>
+																			<td>00/00/00</td>
+																			<td>North America</td>
+																			<td><a href="javascript:void(0);" class="identifier-toggle"><i class="far fa-ellipsis-v"></i></a></td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<span class="styled-selectors">
+																					<input type="checkbox" name="val[save_card]" id="saveCard">
+																				</span>
+																			</td>
+																			<td>SKU-00000</td>
+																			<td>Digital</td>
+																			<td>00/00/00</td>
+																			<td>North America</td>
+																			<td><a href="javascript:void(0);" class="identifier-toggle"><i class="far fa-ellipsis-v"></i></a></td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12 col-lg-4 product-right-width">
+											<div class="tab-right-part">
+												<div class="row">
+													<div class="col-sm-12">
+														<label>Organisation</label>
+														<div class="organisation-form box-border">
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Product Type</label>
+																		<select class="form-control">
+																			<option>HEADPHONES</option>
+																			<option>BLUETHOOTH</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Category</label>
+																		<select class="form-control">
+																			<option>3-10 YEARS OLD</option>
+																			<option>11-17 YEARS OLD</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Product SKU</label>
+																		<input class="form-control" type="text" placeholder="BUDDYPHONES COSMOS - UNICORN">
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Price</label>
+																		<input class="form-control" type="text" placeholder="$99.99">
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Subcategory</label>
+																		<select class="form-control">
+																			<option>SUBCATEGORY 1</option>
+																			<option>SUBCATEGORY 2</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Menufacturer</label>
+																		<select class="form-control">
+																			<option>ONANDOFF</option>
+																			<option>ONANDOFF</option>
+																		</select>
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Region</label>
+																		<select class="form-control">
+																			<option>AMAZON</option>
+																			<option>AMAZON</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<label>Assignment</label>
+														<div class="organisation-form box-border">
+															<div class="row">
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Total Product Quantity</label>
+																		<input class="form-control" type="text" placeholder="4000">
+																		<label class="switch distribute-btn">
+																			<input type="checkbox" id="togBtn1">
+																			<div class="slider round">
+																				<span class="on">Distribute</span><span class="off">Collect</span><!--END-->
+																			</div>
+																		</label> 
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Product Location</label>
+																		<select class="form-control" id="productLocation">
+																			<option>Amazon</option>
+																			<option>Amazon</option>
+																		</select>
+																		<input id="productLocation-input" class="form-control" type="text" placeholder="500">
+																		<a href="javascript:void(0);" class="add-loaction-btn">+ Add Location</a>
+																	</div>
+																</div>
+																<div class="col-sm-12">
+																	<div class="form-group">
+																		<label>Date of Activation</label>
+																		<input class="form-control" type="date" placeholder="">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<label>Deployment</label>
+														<div class="organisation-form deployment-box box-border">
+															<ul>
+																<li>
+																	<img src="images/shopify.png" alt="">
+																	<label class="switch">
+																		<input type="checkbox" id="togBtn1">
+																		<div class="slider round">
+																			<span class="on">Activate</span><span class="off">Inactive</span><!--END-->
+																		</div>
+																	</label> 
+																</li>
+																<li>
+																	<img src="images/amazon.png" alt="">
+																	<label class="switch">
+																		<input type="checkbox" id="togBtn2">
+																		<div class="slider round">
+																			<span class="on">Activate</span><span class="off">Inactive</span><!--END-->
+																		</div>
+																	</label> 
+																</li>
+																<li>
+																	<img src="images/ebay.png" alt="">
+																	<label class="switch">
+																		<input type="checkbox" id="togBtn3">
+																		<div class="slider round">
+																			<span class="on">Activate</span><span class="off">Inactive</span><!--END-->
+																		</div>
+																	</label> 
+																</li>
+															</ul>
+															<button class="btn connect-account-btn">Connect Accounts <i class="fal fa-long-arrow-right"></i></button>
+														</div>
+													</div>
+													<div class="col-sm-12">
+														<div class="create-button">
+															<a href="javascript:void(0);" class="btn create-btn">Create</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	             	
+								</div>
+							</div>
+							<div id="orders" class="tab-pane" role="tabpanel">
+								<div class="tablist-content">
+								......Orders......
+								</div>
+							</div> 
+							<div id="location-management" class="tab-pane" role="tabpanel">
+								<div class="tablist-content">
+									......Location Management......
+								</div>
+							</div>  
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script> 
+    <script src="js/custom-js.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+header {
+    background-color:$header-bg;
+    padding: 20px 10px;
+   .container-fluid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-left, .header-right{
+        display: flex; 
+        align-items: center;
+    }
+    .dropdown-toggle.setting-icon{
+        &:after{
+            display: none;
+        }
+    }
+    .menu-toggle {
+        margin-right: 15px;
+        i {
+            color: $white;
+            font-size: 22px;
+        }
+    }
+    .adjuct-icon, .setting-icon {
+        background-color: transparent;
+        padding:0;
+        i {
+            color: $white;
+            font-size: 22px;
+            margin-left: 15px;
+            @media screen and (max-width: $custom_xxs) {
+                margin-left: 12px;
+                font-size: 20px;
+            }
+        }
+        .fa-chevron-down {
+            font-size: 17px;
+            margin-left: 8px;
+            @media screen and (max-width: $custom_xxs) {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+/* color variable */
+
+$text-blue : #1665d8;
+$text-dark-blue: #000b2c;
+$text-red: #e42612;
+$text-semi-blue: #4b565c;
+$text-black: #000;
+$white:#fff;
+$white_20: rgba(255, 255, 255, 0.2);
+$color_turquoise_approx: #3cd7d7;
+$text-light-blue: #89949a;
+$text-green: #008c00;
+$text-navyblue: #0d5495;
+$text-gray: #252626;
+$text-light-gray: #6d6e71;
+$text-light-brown: #7f7f7f;
+
+$header-bg: #000b2c;
+$nav-bg: #89949a;
+$bg-red: #e42612;
+$bg-darkred: #9c2821;
+$bg-dark-blue: #19333f;
+$bg-white_50: rgba(255,255,255,0.5);
+$bg-black_10: rgba(0,0,0,0.1);
+$bg-off-white: #eaedf3;
+$bg-semi-blue: #f6f9fd;
+$bg-gray:#7c7c7d;
+$bg-green: #008c00;
+$bg-navyblue: #1665d8;
+$bg-lightgray: #fbfbfd;
+$bg-lightgray1: #f2f2f2;
+$bg-input: #cacaca;
+$bg-input-bg: #fafafa;
+
+
+/* font variable */
+$base-font:'Lato', sans-serif;
+$font-awesome:"Font Awesome 5 Free";
+$font-light:300;
+$font-regular:400;
+$font-semibold:500;
+$font-bold:700;
+$font-black:900;
+$font-italic:italic;
+$uppercase:uppercase;
+
+$font14: 14px;
+
+$headingOne: 45px;
+$headingTwo: 36px;
+$headingThree: 28px;
+$headingFour: 24px;
+$headingFive: 21px;
+$headingSix: 18px;
+
+$custom_xxxs: 360px;
+$custom_xxs: 479px;
+$custom_xs: 575px;
+$custom_sm: 767px;
+$custom_md: 991px;
+$custom_xl: 1199px;
+$custom_xxl: 1279px;
+$custom_xxxl: 1400px;
+
+
+$image-path: "../images";
+$webfonts-path: "../webfonts";
+
+
+// extend 
+
+%vertical-middle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    @include translateY(-50%);
+}
+
+%red-btn {
+    border: none;
+    background: $text-red;
+    color: $white;
+    display: inline-block;
+    font-size: ($font14 - 1);
+    font-weight: $font-black;
+    padding: 0 15px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: $uppercase;
+    position: relative;
+    cursor: pointer;
+    &:hover, &:focus {
+        background: $text-dark-blue;
+        color: $white;
+    }
+}
+
+%title-sm {
+    color: $text-semi-blue;
+    font-weight: $font-regular;
+    margin-bottom: 5px;
+}
+
+%fadeSlider_extend_1 {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+%custom-flex {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+%d-flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+%clearfix {
+  &::before, &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
