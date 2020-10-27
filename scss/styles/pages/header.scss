@@ -22,6 +22,14 @@ header {
             font-size: 22px;
         }
     }
+    .logo {
+        margin-top: -5px;
+        a {
+            color: $white;
+            font-size: 16px;
+            font-weight: $font-bold;
+        }
+    }
     .adjuct-icon, .setting-icon {
         background-color: transparent;
         padding:0;
